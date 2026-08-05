@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class BankAccount {
     private String accountNumber;
     private String accountHolderName;
-    double balance;
+    private double balance;
 
     //============Constructor================
     public BankAccount(String accountNumber ,String accountHolderName,double balance){
